@@ -12,7 +12,12 @@ function getQuoute() {
         <q id="quote">${data.content}</q>
         <h3 id="author"> ${data.author} </h3>
         `
-        });
+        })
+        .catch(() =>
+            content.innerHTML = `
+                <h3>Could not find Quote<h3/>
+            `
+        )
 }
 
 getQuoute();
