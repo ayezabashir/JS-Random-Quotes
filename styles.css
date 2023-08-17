@@ -28,26 +28,26 @@ h1 {
   height: auto;
   width: 80vmin;
   text-align: center;
-}
-
-#quote {
-  font-size: 18px;
-  letter-spacing: 0.8px;
-}
-
-#author {
-  font-style: italic;
-  letter-spacing: 1px;
-  text-align: end;
-}
-#btn {
-  padding: 0.5rem 1.5rem;
-  font-size: 18px;
-  font-weight: bold;
-  background: #fff;
-  color: #f7632f;
-  cursor: pointer;
-  border-radius: 5px;
-  outline: none;
-  border: none;
+  .content {
+    #quote {
+      font-size: 18px;
+      letter-spacing: 0.8px;
+    }
+    #author {
+      font-style: italic;
+      letter-spacing: 1px;
+      text-align: end;
+    }
+  }
+  #btn {
+    padding: 0.5rem 1.5rem;
+    font-size: 18px;
+    font-weight: bold;
+    background: #fff;
+    color: #f7632f;
+    cursor: pointer;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+  }
 }
